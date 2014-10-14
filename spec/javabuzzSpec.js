@@ -14,10 +14,21 @@ describe('Javabuzz', function(){
  		 expect(javabuzz.isDivisibleByFive(5)).toBe(true);
   	});
 
-  	it('', function (){
+  	it('three', function (){
   		javabuzz = new Javabuzz();
   		expect(javabuzz.isDivisibleByThree(3)).toBe(true);
   	});
 
   });
+
+
+ 
+  describe('should say', function (){
+
+    it('Javabuzz when divisible by 15', function(){
+      javabuzz = new Javabuzz
+      expect(javabuzz.say(15)).toEqual('Javabuzz')
+
+        });
+    });
 });
