@@ -8,5 +8,11 @@ describe('Javabuzz', function(){
 			javabuzz = new Javabuzz();
 			expect(javabuzz.isDivisibleByFifteen(15)).toBe(true);
 		});
-	});
+
+
+    it('five', function(){
+      javabuzz = new Javabuzz();
+      expect(javabuzz.isDivisibleByFive(5)).toBe(true);
+	  });
+  });
 });
