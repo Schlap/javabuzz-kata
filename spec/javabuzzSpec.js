@@ -22,19 +22,19 @@ describe('Javabuzz', function(){
   });
 
 
+
+
+
  
   describe('should say', function (){
 
     it('Javabuzz when divisible by 15', function(){
       javabuzz = new Javabuzz();
-      expect(javabuzz.say(15)).toEqual('Javabuzz')
+      expect(javabuzz.say(15)).toEqual('Javabuzz');
 
     });
 
-    it('Buzz when divisible by 5', function(){
-    	javabuzz = new Javabuzz();
-    	expect(javabuzz.say(5)).toEqual('Buzz')
-    });
+  
 
   });
 });
